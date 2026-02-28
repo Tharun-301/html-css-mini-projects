@@ -79,3 +79,21 @@ The main goal of this repository is to:
 
 **Tharun Sathunuru**  
 Frontend Developer (Learning & Growing 🚀)
+
+🔥 Hashtags
+#HTML
+#CSS
+#HTMLCSS
+#HTMLCSSProjects
+#Frontend
+#FrontendDevelopment
+#WebDevelopment
+#ResponsiveDesign
+#Flexbox
+#CSSGrid
+#MiniProjects
+#CodingPractice
+#WebDesign
+#LearnToCode
+#GitHubProjects
+
