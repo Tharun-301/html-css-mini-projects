@@ -1,0 +1,136 @@
+.navbar {
+      background: linear-gradient(90deg, #4b00c9, #9f00c9);
+      padding: 15px 0;
+    }
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff !important;
+    }
+    .nav-link {
+      color: #fff !important;
+      margin-right: 20px;
+      transition: 0.3s;
+    }
+    .nav-link:hover {
+      color: #ff00c8 !important;
+    }
+
+    /* Hero Section */
+  .banner {
+  background-image: url("https://wallpapercave.com/wp/wp1851948.jpg");
+  height: 90vh;
+  width: 99vw;
+  background-size: cover;
+  animation: gradientShift 8s ease infinite;
+  text-align: center;
+  padding: 130px 20px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.banner-heading {
+  font-size: 38px;
+  font-family: roboto;
+  color: white;
+  font-weight: bold;
+  
+}
+.banner-para {
+  font-size: 22px;
+  color: white;
+  font-family: roboto;
+  font-weight: 800px;
+}
+.banner .btn {
+      margin-top: 20px;
+      background-color: #ff00c8;
+      border: none;
+      color: white;
+      padding: 10px;
+      font-weight: 500;
+      border-radius: 30px;
+      transition: 0.4s;
+    }
+.banner .btn:hover {
+      background-color: #ff66d9;
+      transform: scale(1.05);
+  
+ }
+
+@keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Subtle button floating effect */
+    @keyframes pulse {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+
+    /* Trending Movies */
+    .section-title {
+      margin-top: 60px;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    .movie-card {
+      background-color: #1b0044;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .movie-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(255, 0, 200, 0.4);
+    }
+    .movie-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .movie-card .card-body {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+    .movie-card .btn {
+      background-color: #ff00c8;
+      border: none;
+      border-radius: 30px;
+      padding: 8px 20px;
+      transition: 0.3s;
+    }
+    .movie-card .btn:hover {
+      background-color: #ff66d9;
+      transform: scale(1.1);
+    }
+
+    /* Categories */
+    .category-btn {
+      border: none;
+      border-radius: 30px;
+      padding: 12px 30px;
+      margin: 10px;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(90deg, #4b00c9, #9f00c9);
+      transition: 0.3s;
+    }
+    .category-btn:hover {
+      transform: translateY(-5px);
+      background: linear-gradient(90deg, #ff00c8, #ff66d9);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1a0038;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 50px;
+      color: #ccc;
+    }

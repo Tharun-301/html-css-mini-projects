@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+/* Main Wrapper */
+.wrapper {
+  width: 100%;
+  padding: 40px 80px;
+}
+
+/* Header */
+.header h1 {
+  font-size: 36px;
+}
+
+.subtitle {
+  color: #555;
+  margin: 5px 0;
+}
+
+.meta {
+  font-size: 14px;
+  color: #777;
+}
+
+.meta a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+/* Section Styling */
+.section {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.section h3 {
+  margin: 10px 0;
+}
+
+.section p,
+.section li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.featured-img {
+  width: 400px;      /* set fixed width */
+  max-width: 100%;   /* responsive on small screens */
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
+

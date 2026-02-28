@@ -1,0 +1,36 @@
+.nav {
+  text-decoration-line: none;
+  font-family: roboto;
+  font-size: 22px;
+  text-align: end;
+  color: white;
+}
+.card-container1 {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+
+}
+.card {
+  text-align: center;
+  background-color: rgb(133, 180, 177);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  border-radius: 14px;
+  width: 350px;
+}
+h2 {
+  font-size: 18px;
+  font-family: roboto;
+  text-align: left;
+}
+li {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+.back {
+  background-color:rgb(43, 42, 42);
+  padding: 8px;
+  border-radius: 12px;
+  width: 70px;
+}

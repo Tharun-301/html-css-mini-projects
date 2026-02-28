@@ -1,0 +1,141 @@
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: blueviolet; 
+}
+.bg-container {
+  background-color: yellowgreen;
+  padding: 14px;
+}
+.nav {
+  text-decoration-line: none;
+  font-family: roboto;
+  font-size: 22px;
+  text-align: end;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: rgb(184, 210, 220);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+
+}
+.card:hover {
+  background-color: #cb63a0;
+  transform: scale(1.02);
+}
+
+h2 {
+  color: rgb(74, 74, 195);
+}
+
+p {
+  color:rgb(38, 35, 35);
+  font-size: 16px;
+  font-style: oblique;
+}
+.button {
+  font-size: 12px;
+  background-color: rgb(13, 13, 139);
+  border-radius: 12px;
+  color: aliceblue;
+  padding: 8px;
+  width: 60px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(23, 21, 21);
+  padding-top: 50px;
+}
+.footer-content {
+  width: 33.3%;
+  color: white;
+}
+p{
+  color: white;
+}
+h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-content p{
+        width:190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type:none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: '';
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: #f18930;
+        transition-duration: .5s;
+    }
+    .list li:hover::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+    .social-icons i{
+        color: white;
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: #f18930;
+    }
+    .social-icons i:hover{
+        color: #f18930;
+    }
+    .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #343434;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }

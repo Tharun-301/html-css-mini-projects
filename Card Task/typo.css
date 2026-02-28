@@ -1,0 +1,48 @@
+.nav {
+  text-decoration-line: none;
+  font-family: roboto;
+  font-size: 22px;
+  text-align: end;
+  color: white;
+}
+.card-container1 {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+
+}
+.card1 {
+  text-align: center;
+  background-color: rgb(127, 154, 212);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  border-radius: 14px;
+  width: 300px;
+}
+.card2 {
+  text-align: center;
+  background-color: rgb(239, 131, 123);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  border-radius: 14px;
+  width: 300px;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+  font-size: 18px;
+  font-family: roboto;
+  text-align: left;
+}
+li {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+.back {
+  background-color:rgb(48, 47, 47);
+  padding: 8px;
+  border-radius: 12px;
+  width: 70px;
+}
